@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    font-size: 75px;
+    margin-bottom: 40px;
+}
+h3{
+    border: 2px solid black;
+    width: 40%
+}
+.heading{
+    float: right;
+    border-top: none;
+    border-right: none;
+    background-color: pink;
+}
+.section{
+    display: flex;
+    padding: 10px;
+    margin: 0 -10px;
+}
+.section1{
+    font-size: 25px;
+    border: 2px solid black;
+    background-color:darkgray;
+    margin: 0 10px;
+    width: 100%;
+}
+.section2{
+    font-size: 25px;
+    border: 2px solid black;
+    background-color:darkgray;
+    margin: 0 10px;
+    width: 100%;
+}
+.section3{
+    font-size: 25px;
+    border: 2px solid black;
+    background-color:darkgray;
+    margin: 0 10px;
+    width: 100%;
+}
+p{
+    clear: both;
+    padding: 20px;
+    text-align: justify;
+    justify-content: center;
+}
+@media(min-width:768px) and (max-width:991px){
+    .section3{
+        position: absolute;
+        top: 365px;
+        width: 97.8%;
+        font-size: 20px;
+    }
+    .section1{
+        font-size: 20px;
+        width: 100%;
+    }
+    .section2{
+        font-size: 20px;
+        width: 100%;
+    }
+    .section3 h3{
+        width: 20%;
+    }
+}
+@media(max-width:767px){
+    .section{
+        display: block;
+    }
+    h3{
+        width: 20%;
+    }
+    .section1{
+        font-size: 20px;
+        width: 90%;
+        margin: 20px 33px;
+    }
+    .section2{
+        font-size: 20px;
+        width: 90%;
+        margin: 20px 33px;
+    }
+    .section3{
+        font-size: 20px;
+        width: 90%;
+        margin: 20px 33px;
+    }
+}
